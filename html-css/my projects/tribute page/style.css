@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --charcoal: #36454F;
+    --gray: #808080;
+    --dark: #1B1212;
+    --light: #E5E4E2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--light);
+}
+
+.wrapper{
+    margin: auto;
+    width: 80vw;
+    max-width: 1200px;
+}
+
+header .wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+#bio h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0 50px 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#bio .wrapper li{
+    border-bottom: 1px solid var(--dark);
+    padding: 35px 0;
+    margin-left: auto;
+    font-size: 18px;
+    list-style-type:square;
+}
+
+#bio .wrapper li:last-of-type{
+    border-bottom: none;
+}
+
+#quotation p{
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    padding: 40px 60px;
+    font-style: italic;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+#quotation i:first-of-type{
+    margin-right: 10px;
+}
+
+#quotation i:last-of-type{
+    margin-left: 10px;
+}
+
+span{
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    padding: 35px 0;
+    color: var(--charcoal);
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: linear-gradient(90deg, #ee9ca7 0%, #ffdde1 100%);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.card{
+    margin: 0 auto;
+    padding: 40px 32px;
+    width: 400px;
+    height: 65%;
+    background-color: white;
+    box-shadow: rgba(92, 80, 88, 0.288) 0px 23px 50px;
+    border: none;
+    border-radius: 35px;
+}
+
+.card h1{
+    padding-top: 5%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.card .form{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.form input, .form button{
+    border-radius: 25px;
+    height: 45px;
+}
+
+input{
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 0 15px;
+    outline: none;
+}
+
+button{
+    border: none;
+    color: rgb(70, 67, 67);
+    background-color: #ffdde1;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(202, 176, 179);
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 12%;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ee9ca7;
+}
+
+footer a:hover{
+    color: rgb(202, 176, 179);
+    transition: all 0.3s ease 0s;
+}
