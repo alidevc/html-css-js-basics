@@ -1,0 +1,42 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: beige;
+    box-shadow: 8px 8px rgba(27, 27, 27, 0.8);
+    height: 340px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.slider{
+    background-color: blue;
+    height: 300px;
+    width: 450px;
+    border-radius: 12px 12px 0 0;
+
+}
+
+.slide{
+    object-fit: cover;
+    height: 300px;
+    width: 450px;
+    border-radius: 12px 12px 0 0;
+}
+
+.btn{
+    width: 80px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+}
